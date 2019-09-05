@@ -51,7 +51,7 @@ import ${ComponentName} from 'packages/${componentname}/${ComponentName}.vue';
 
 describe('${ComponentName}', () => {
   it('default', () => {
-    const wrapper = shallowMount(Hahaha);
+    const wrapper = shallowMount(${ComponentName});
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 });
